@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>334</width>
+    <height>503</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="labl_ength">
+      <property name="text">
+       <string>Длина</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QPlainTextEdit" name="text_length"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="lab_width">
+      <property name="text">
+       <string>Ширина</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" colspan="2">
+     <widget class="QPlainTextEdit" name="text_width"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="lab_height">
+      <property name="text">
+       <string>Высота</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0" colspan="2">
+     <widget class="QPlainTextEdit" name="text_height"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="lab_rul">
+      <property name="text">
+       <string>В рулоне</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0" colspan="2">
+     <widget class="QPlainTextEdit" name="text_rul"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="lab_square">
+      <property name="text">
+       <string>Площадь стен = кв. м</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="lab_ruls">
+      <property name="text">
+       <string>Нужно рулона (ов)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QPushButton" name="button_save">
+      <property name="text">
+       <string>Сохранить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QPushButton" name="button_import">
+      <property name="text">
+       <string>Загрузить</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
